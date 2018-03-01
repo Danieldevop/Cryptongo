@@ -37,10 +37,11 @@ body {
   margin-top: 130px;
 }
 .content-margins .space1 {
-  margin-top: 285px;
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 .sect1 {
-    background: linear-gradient(to left, rgb(198, 195, 218), rgba(45, 63, 219, 0.582));
+  background: linear-gradient(to left, rgb(198, 195, 218), rgba(45, 63, 219, 0.582));
     
 }
 
@@ -87,6 +88,12 @@ body {
   /*Responsive */
   
   @media (max-width: 1920px) {
+    .divide {
+      margin-left: 200px;
+      margin-top: 200px;
+      font-size: 27px;
+      line-height: 48px;
+    }
     .tittle-font {
       font-size: 50px;
     }
