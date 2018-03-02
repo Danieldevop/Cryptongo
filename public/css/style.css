@@ -14,7 +14,6 @@ body {
   height: 800px;
   position: absolute;
   background-repeat: no-repeat;
-  
 }
 #container {
     min-height:100%;
@@ -35,10 +34,6 @@ body {
 }
 .content-margins {
   margin-top: 130px;
-}
-.content-margins .space1 {
-  margin-top: 200px;
-  margin-bottom: 100px;
 }
 .sect1 {
   background: linear-gradient(to left, rgb(198, 195, 218), rgba(45, 63, 219, 0.582));
@@ -86,20 +81,38 @@ body {
 }
   
   /*Responsive */
-  
-  @media (max-width: 1920px) {
-    .divide {
-      margin-left: 200px;
-      margin-top: 200px;
-      font-size: 27px;
-      line-height: 48px;
-    }
+  @media screen and (max-width: 1920px) {
     .tittle-font {
       font-size: 50px;
     }
     .sub-font {
       font-size: 20px;
       color: white;
+    }
+    .mrg-text {
+      margin-top: 150px;
+      font-size: 18px;
+      line-height: 32px;
+    }
+    .space1 {
+      margin-bottom: 200px;
+    }
+  }
+  @media screen and (max-width: 1205px) {
+    .tittle-font {
+      font-size: 50px;
+    }
+    .sub-font {
+      font-size: 20px;
+      color: white;
+    }
+    .mrg-text {
+      margin-top: 130px;
+      font-size: 18px;
+      line-height: 32px;
+    }
+    .space1 {
+      margin-bottom: 150px;
     }
   }
   
@@ -111,9 +124,15 @@ body {
       font-size: 20px;
       color: white;
     }
+    .space1 {
+      margin-bottom: 150px;
+    }
   }
   
   @media (max-width: 768px) {
+    .mrg-img{
+      margin-top: 150px;
+    }
     .tittle-font {
       font-size: 30px;
     }
@@ -121,15 +140,24 @@ body {
       font-size: 18px;
       color: white;
     }
+    .space1 {
+      margin-bottom: 150px;
+    }
   }
   
   @media (max-width: 575px) {
+    .mrg-img{
+      margin-top: 0;
+    }
     .tittle-font {
       font-size: 25px;
     }
     .sub-font {
       font-size: 17px;
       color: white;
+    }
+    .space1 {
+      margin-bottom: 140px;
     }
   }
   
