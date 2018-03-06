@@ -34,6 +34,9 @@ body {
 .content-margins {
   margin-top: 130px;
 }
+.firstmargin {
+  margin-bottom: 100px;
+}
 .sect1 {
   background: linear-gradient(to left, rgb(198, 195, 218), rgba(45, 63, 219, 0.582));
 
@@ -94,7 +97,7 @@ body {
   margin-bottom: 200px;
 }
 .ahorra {
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 .function1 {
