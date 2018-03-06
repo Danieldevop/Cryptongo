@@ -1,89 +1,153 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        <title>Appto: administración de propiedad horizontal</title>
-        <link rel="icon" type="image/png" href="public/img/favicon-32x32.png" sizes="32x32" />
-        <link rel="icon" type="image/png" href="public/img/favicon-16x16.png" sizes="16x16" />
-        <link rel="shortcut icon" href="public/img/appto-icon.svg">
-        <link href="public/css/style.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<!--content-->
-		<meta name="Description" content="Appto te permite administrar tus conjuntos de manera facil, ahorrando gastos en papeleo y gestion." />
-		<meta property="og:url" content="http://appto.life/" />
-		<meta property="og:title" content="Appto" />
-		<meta property="og:description" content="Appto te permite administrar tus conjuntos de manera facil, ahorrando gastos en papeleo y gestion." />
-		<meta property="og:image" content="/img/appto-icon.svg" />
-		<meta property="og:image:width" content="1000" />
-		<meta property="og:image:height" content="250" />
-		<meta property="og:type" content="website" />
-		<meta property="og:site_name" content="Appto" />
-		<meta property="og:locale" content="es_ES" />
-		<meta property="og:locale" content="es" />
-		<meta property="og:locale" content="es-CO" />
-		<!--content-->
-    </head>
-    <body ondragstart="return false;" ondrop="return false;">
-        <div id="container">
-            <div class="bgappto">
-                <header class="">
-                    <nav class="navbar navbar-expand-md navbar-light">
-                        <div class="container">
-                            <a class="navbar-brand" href="#">
-                                <span class="h4 align-middle font-weight-bold text-light">Appto</span>
-                            </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon "></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarCollapse">
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link font-weight-bold text-light" target="_blank" href="https://appto.now.sh/administrators/register">Regístrate</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link font-weight-bold text-light ml-md-5" href="#">Precio</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </header> 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Appto: administración de propiedad horizontal</title>
+    <link rel="icon" type="image/png" href="public/img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="public/img/favicon-16x16.png" sizes="16x16" />
+    <link rel="shortcut icon" href="public/img/appto-icon.svg">
+    <link href="public/css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--content-->
+    <meta name="Description" content="Appto te permite administrar tus conjuntos de manera facil, ahorrando gastos en papeleo y gestion." />
+    <meta property="og:url" content="http://appto.life/" />
+    <meta property="og:title" content="Appto" />
+    <meta property="og:description" content="Appto te permite administrar tus conjuntos de manera facil, ahorrando gastos en papeleo y gestion." />
+    <meta property="og:image" content="/img/appto-icon.svg" />
+    <meta property="og:image:width" content="1000" />
+    <meta property="og:image:height" content="250" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Appto" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:locale" content="es" />
+    <meta property="og:locale" content="es-CO" />
+    <!--content-->
+  </head>
+
+  <body ondragstart="return false;" ondrop="return false;">
+    <div id="container">
+      <div class="bgappto">
+        <header class="">
+          <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <span class="h4 align-middle font-weight-bold text-light">Appto</span>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link font-weight-bold text-light" target="_blank" href="https://appto.now.sh/administrators/register">Regístrate</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link font-weight-bold text-light ml-md-5" href="#">Precio</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div id="body">
-                <div class="content-margins">
-                    <section class="space1 container text-center animated animatedFadeInUp fadeInUp">
-                        <p class="tittle-font text-light font-weight-bold mb-5">Administración digitalizada de propiedad horizontal</p>
-                        <p class="sub-font">Tu solución tecnológica para todos los problemas de administración de propiedad horizontal.</p>
-                        <button class="btn0 pt-1 pb-1 px-5 mt-4" onclick="window.open('https://appto.now.sh', '_blank')">
-                            Pruébalo
-                        </button>
-                    </section> 
-                    <section class="container mb-5">
-                        <div class="row">
-                            <div class="col-md-4 mrg-text">
-                                <p class="divide center-block"> <span class="font-weight-bold">Appto</span> es una solución multiplataforma simple y efectiva para la administración de propiedades horizontales, con el fin de brindar transparencia, seguridad y eficiencia a los procesos administrativos y de convivencia dentro de los condominios.</p>  
-                            </div>
-                            <div class="col-md-8 mrg-img">
-                                <img class="img-fluid mx-auto" src="public/img/busyt.png" alt="" width="">
-                            </div>               
-                        </div>
-                    </section>
-                    <section class="container">
-                        
-                    </section>
-                </div>
+          </nav>
+        </header>
+      </div>
+      <div id="body">
+        <div class="content-margins">
+          <section class="space1 container text-center animated animatedFadeInUp fadeInUp">
+            <p class="tittle-font text-light font-weight-bold mb-1">Bienvenido a tu residencia digital</p>
+            <p class="sub-font">La solución tecnológica para la Administración de propiedad horizontal.</p>
+            <button class="btn0 pt-1 pb-1 px-5 mt-4" onclick="window.open('https://appto.now.sh', '_blank')">
+              Pruébalo
+            </button>
+          </section>
+          <section class="container mb-5">
+            <div class="row">
+              <div class="col-md-5 mrg-text ">
+                <p>
+                  <span class="font-weight-bold">¿Insatisfecho con la gestión de su conjunto?</span>
+                </p>
+                <p>
+                  Appto es la solución digital para la administración de propiedades horizontales.
+                  Su función es facilitar los canales de comunicación entre administradores y residentes.
+                  Para brindarte:
+                  <span class="font-weight-bold">Eficiencia, convivencia y transparencia.</span>
+                </p>
+              </div>
+              <div class="mrgimg col-md-7 mrg-img">
+                <img class="img-fluid mx-auto" src="public/img/busyt.png" alt="" width="">
+              </div>
             </div>
-            <div id="footer">
-                <footer class="foo text-center p-1">
-                    <p class="font-weight-bold">© 2018 Appto</p>
-                </footer>
+          </section>
+          <section class="container text-center ">
+            <div class="text-center">
+              <h4 class="font-weight-bold">
+                Te provee la calidad de vida que necesitas
+                ahorras tiempo, dinero y esfuerzo.
+              </h4>
             </div>
-         </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="public/js/main.js"></script>
-    </body>
+            <img class="img-fluid mx-auto d-block" src="public/img/cloud.jpg" width="600">
+            <p class="mt-2">
+              Moderniza tu edificio Centralizando los procesos de gestión en la nube.
+            </p>
+            <h2 class="ahorra font-weight-bold">Ahorra en</h2>
+            <div class="row">
+              <div class="col-md-4 mt-2">
+                <img src="https://png.icons8.com/nolan/40/000000/time.png">
+                Tiempo
+              </div>
+              <div class="col-md-4 mt-4">
+                <img src="https://png.icons8.com/nolan/40/000000/coins.png">
+                Dinero
+              </div>
+              <div class="col-md-4 mt-4">
+                <img src="https://png.icons8.com/nolan/40/000000/box-important.png">
+                Problemas
+              </div>
+            </div>
+          </section>
+          <section class="function1 bubble1 container text-center">
+            <p class="h3 mb-4 font-weight-bold">Funciones</p>
+            <div class="row font-weight-bold">
+              <div class="col-md-3">
+                Anuncios
+                <img class="img-fluid mx-auto d-block" src="public/img/ann.jpg" width="300">
+              </div>
+              <div class="col-md-3">
+                Agendar espacios
+                <img class="img-fluid mx-auto d-block" src="public/img/shedule.jpg" width="300">
+              </div>
+              <div class="col-md-3">
+                Peticiones quejas y reclamos PQR
+                <img class="img-fluid mx-auto d-block" src="public/img/pqrs.gif" width="300">
+              </div>
+              <div class="col-md-3">
+                Pagos online
+                <img class="img-fluid mx-auto d-block" src="public/img/online-payments.jpg" width="300">
+              </div>
+            </div>
+          </section>
+          <section class="mt-5 mb-5 container text-center">
+            <h3>
+              ¿Qué esperas? Descubre un mundo de ventajas
+            </h3>
+            <h4 class="font-weight-bold">prueba Appto gratis ahora!</h4>
+            <button class="btn0 pt-1 pb-1 px-5 mt-4" onclick="window.open('https://appto.now.sh', '_blank')">
+              Pruébalo
+            </button>
+            <img class="mt-5 img-fluid mx-auto d-block" src="public/img/woman.jpg" width="">
+          </section>
+        </div>
+      </div>
+      <div id="footer">
+        <footer class="foo text-center p-1">
+          <p class="font-weight-bold">© 2018 Appto</p>
+        </footer>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="public/js/main.js"></script>
+  </body>
 </html>
