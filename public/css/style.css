@@ -74,11 +74,16 @@ body {
     margin-bottom: 20px;
     box-shadow: 0 5px 10px 5px rgba(28, 28, 39, 0.1);
   }
+.sales {
+  margin-top: 60px;
+  padding: 30px;
+  background: linear-gradient(to left, rgb(68, 87, 255), #795BE2 );
+}
 .foo {
-    background: linear-gradient(to left, rgb(255, 127, 68), rgb(238, 81, 75) );
+  background: #F4F4F4;
   }
 .foo p {
-    color: rgb(255, 255, 255);
+  color: grey;
 }
 
 .tittle-font {
@@ -103,6 +108,12 @@ body {
 .function1 {
   margin-top:50px;
 }
+.sales-p {
+  font-size: 30px;
+}
+.sales-h3 {
+  font-size: 50px;
+}
 
   /*Responsive */
   @media screen and (max-width: 1205px) {
@@ -123,6 +134,12 @@ body {
     }
     .space1 {
       margin-bottom: 150px;
+    }
+    .sales-p {
+      font-size: 25px;
+    }
+    .sales-h3 {
+      font-size: 43px;
     }
   }
 
@@ -166,6 +183,12 @@ body {
     .space1 {
       margin-bottom: 150px;
     }
+    .sales-p {
+      font-size: 20px;
+    }
+    .sales-h3 {
+      font-size: 35px;
+    }
   }
 
   @media (max-width: 575px) {
@@ -186,6 +209,12 @@ body {
     }
     .space1 {
       margin-bottom: 140px;
+    }
+    .sales-p {
+      font-size: 15px;
+    }
+    .sales-h3 {
+      font-size: 30px;
     }
   }
 
