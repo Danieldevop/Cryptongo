@@ -77,6 +77,7 @@ body {
 .sales {
   margin-top: 60px;
   padding: 30px;
+  border-radius: 10px;
   background: linear-gradient(to left, rgb(68, 87, 255), #795BE2 );
 }
 .foo {
